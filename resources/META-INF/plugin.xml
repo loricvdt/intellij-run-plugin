@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>info.loric.run</id>
+  <name>Run ♫</name>
+  <version>1.0</version>
+  <vendor email="run@loric.info" url="https://github.com/loricvdt">Loric Vandentempel</vendor>
+
+  <description>
+    Plays the "Run" meme song whe the run button is pressed
+  </description>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <project-components>
+    <component>
+      <implementation-class>RunDetector</implementation-class>
+    </component>
+  </project-components>
+
+</idea-plugin>
