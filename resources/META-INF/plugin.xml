@@ -1,11 +1,11 @@
 <idea-plugin>
   <id>info.loric.run</id>
   <name>Run ♫</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor email="run@loric.info" url="https://github.com/loricvdt">Loric Vandentempel</vendor>
 
   <description>
-    Plays the "Run" meme song whe the run button is pressed
+    Plays the "Run" meme song when the run button is pressed
   </description>
 
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
